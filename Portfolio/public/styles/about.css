@@ -1,0 +1,12 @@
+#description {
+    padding: 10px;
+}
+
+img {
+    float: left;
+    padding-right: 10px;
+}
+
+.container>h1 {
+    text-align: center;
+}

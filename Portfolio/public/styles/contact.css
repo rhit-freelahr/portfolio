@@ -1,0 +1,41 @@
+.position {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.form-element {
+    font-family: inherit;
+    width: 100%;
+    background: inherit;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 15px 12px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.fields {
+    margin-top: 20px;
+}
+
+#form-submit {
+    text-align: center;
+    width: 150px;
+    padding-block: 20px;
+    padding-inline: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-element:focus {
+    color: white;
+    outline: none;
+    background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+}

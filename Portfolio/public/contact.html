@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <nav id="page-navigation">
+            <ul id="page-list" class="zero-space-button no-list-style">
+                <li><a href="about.html" class="nav-button hover-effect">About</a></li>
+                <li><a href="portfolio.html" class="nav-button hover-effect">Portfolio</a></li>
+                <li><a href="resume.html" class="nav-button hover-effect">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="nav-padding">
+        <div class="container position">
+            <h1>Contact</h1>
+            <article>
+                <p>Get in touch with me.</p>
+            </article>
+            <form method="POST" name="form" action="https://formspree.io/f/xvojrlwn">
+                <div class="fields">
+                    <div class="field-half">
+                        <input type="text" name="name" id="name" class="form-element" placeholder="Full Name" required>
+                    </div>
+                    <div class="field-half">
+                        <input type="email" name="email" id="email" class="form-element" placeholder="Email Address" required>
+                    </div>
+                    <div class="textfield">
+                        <textarea name="message" id="message" rows="10" class="form-element" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" id="form-submit" class="click-effect">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
