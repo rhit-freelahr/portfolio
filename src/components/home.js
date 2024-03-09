@@ -5,8 +5,7 @@ export default function Home(props) {
   return (
     <section className='text-center bg-slate-900 pt-32 pb-8 px-5 w-full' id="home">
       <h1 className='font-nunito font-semibold text-4xl mb-10 text-white mx-auto max-w-[800px]'>
-        <span className='font-bold'>Hello, I'm Hunter.</span> I'm a student at <span className='font-bold'>Rose-Hulman Institute of Technology.</span> 
-         I spend my time working on web apps with JavaScript, React.js, MongoDB, and TailwindCSS 
+        <span className='font-bold'>Hello, I'm Hunter.</span> I'm a student at <span className='font-bold'>Rose-Hulman Institute of Technology.</span> I spend my time working on web apps with JavaScript, React.js, MongoDB, and TailwindCSS 
       </h1>
       <div className='flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
         <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 
