@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply min-h-screen font-sans bg-gray-100
+    @apply min-h-screen font-sans
   }
 }
