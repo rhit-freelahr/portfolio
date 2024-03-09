@@ -10,6 +10,9 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
         nunito: ["Nunito", "sans-serif"]
       },
+      backgroundColor: {
+        'warm-gray': '#F4F2EE'
+      },
     },
   },
   plugins: [],
