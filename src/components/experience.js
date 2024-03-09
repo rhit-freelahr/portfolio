@@ -44,9 +44,9 @@ const experienceList = [
 
 export default function Experience(props) {
   return (
-    <div className="w-full mb-40">
+    <div className="w-full mb-20">
     <h1 className="font-nunito font-semibold text-4xl my-10 text-center">Experience</h1>
-    <ul className="flex flex-wrap text-center items-center justify-center gap-2 mx-auto flex-col">
+    <ul className="flex flex-wrap text-center items-center justify-center gap-2 mx-auto flex-col font-lato">
       {experienceList.map(experience => {
         return <ExperienceCard title={experience.title} used={experience.used} description={experience.description} position={experience.position} time={experience.time}/>
       })}
