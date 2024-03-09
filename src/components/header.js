@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import classNames from 'classnames'
+
+const navList = ["Home", "Projects", "Skills", "Experience", "Education", "Contact"];
 
 export default function Header(props) {
-  const navList = ["Home", "Projects", "Skills", "Experience", "Education", "Contact"];
+  const [active, setActive] = useState(navList[0])
 
   const listNames = navList.map(name => {
     return (
       <li key={name} className='h-3/4 flex items-center justify-center relative'>
-        <a className='bg-white sm:rounded-full flex w-full items-center justify-center px-3 py-2
-        hover:text-gray-950 transition dark:hover:text-gray-300 text-gray-950 dark:text-white' href="#home">
+        <a className={classNames(active == name ? 'bg-white text-black' : 'text-gray-500 hover:text-gray-950', 'sm:rounded-full flex w-full items-center justify-center px-3 py-2 transition scroll-smooth')} href={`#${name.toLowerCase()}`} onClick={() => setActive(name)}>
           {name}
-          {/* Make button show when you are that section, text should be gray when it is not that section*/}
         </a>
       </li>
     )

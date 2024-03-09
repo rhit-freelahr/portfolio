@@ -46,7 +46,7 @@ const projectsList = [
 
 export default function Projects(props) {
   return (
-    <section className="flex items-center justify-center flex-col">
+    <section className="flex items-center justify-center flex-col" id="projects">
       <h1 className="font-nunito font-semibold text-4xl my-10 text-center">My Projects</h1>
       {projectsList.map(project => {
         return <ProjectCard git={project.git} title={project.title} madeWith={project.madeWith} description={project.description} />

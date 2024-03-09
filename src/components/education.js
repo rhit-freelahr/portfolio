@@ -4,7 +4,7 @@ import Rose from "../images/rose-logo.png"
 export default function Education(props) {
 
   return (
-    <div className="mb-20">
+    <div className="mb-20" id="education">
       <h1 className="font-nunito font-semibold text-4xl my-10 text-center">Education</h1>
       <div className="mt-4 flex gap-6 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10 bg-gray-100 font-lato">
         <div>
