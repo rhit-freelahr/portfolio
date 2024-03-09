@@ -9,6 +9,7 @@ import PythonLogo from "../images/python-5.svg"
 import SeleniumLogo from "../images/selenium-svgrepo-com.svg"
 import MSSQLLogo from "../images/microsoft-sql-server-1.svg"
 import TailwindLogo from "../images/tailwind-css-2.svg"
+import BootStrapLogo from "../images/bootstrap-5-1.svg"
 
 const logos = {
   "ReactLogo": ReactLogo,
@@ -19,7 +20,8 @@ const logos = {
   "PythonLogo": PythonLogo,
   "SeleniumLogo": SeleniumLogo,
   "MSSQLLogo": MSSQLLogo,
-  "TailwindLogo": TailwindLogo
+  "TailwindLogo": TailwindLogo,
+  "BootStrapLogo": BootStrapLogo
 }
 
 export default function ProjectCard(props) {

@@ -37,7 +37,7 @@ const projectsList = [
   {
     git: "https://github.com/rhit-freelahr/ExpenseSplitter",
     title: "Expense Splitter",
-    madeWith: ["FirebaseLogo", "JSLogo"],
+    madeWith: ["FirebaseLogo", "JSLogo", "BootStrapLogo"],
     description: `Web App designed for Rose-Hulman students to split bills among members in a group.
        Users can add each other using their username and can split bill individually or select who they would
        to split the bill with. Utilized Google Pie-Chart API to display your incoming and outgoing expenses.`
