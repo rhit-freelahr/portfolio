@@ -110,7 +110,7 @@ const skillsList = [
 
 export default function Skills(props) {
   return (
-    <div className="w-full mb-40">
+    <div className="w-full mb-20">
       <h1 className="font-nunito font-semibold text-4xl my-10 text-center">My Skills</h1>
       <ul className="flex flex-wrap text-center items-center justify-center gap-2 mx-auto max-w-[850px]">
         {skillsList.map(skill => {
