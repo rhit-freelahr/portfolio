@@ -31,7 +31,7 @@ export default function ProjectCard(props) {
         hover:bg-gray-200 transition mb-8 h-full font-lato">
         <div className="pb-7 px-5 pl-10 pr-2 pt-10 flex flex-col h-full">
           <h2 className="mb-3 font-semibold text-2xl">{title}</h2>
-          <ul className="flex gap-2 mb-3 sm:mt-auto items-center">
+          <ul className="flex flex-wrap gap-2 mb-3 sm:mt-auto items-center">
             <p className="font-semibold">Made with:</p>
             {madeWith.map(logo => {
               return (

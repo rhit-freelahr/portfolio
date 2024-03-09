@@ -115,7 +115,7 @@ export default function Skills(props) {
       <ul className="flex flex-wrap text-center items-center justify-center gap-2 mx-auto max-w-[850px]">
         {skillsList.map(skill => {
           return (
-            <li className="flex flex-col items-center px-4 py-3 dark:text-white/80">
+            <li className="flex flex-col items-center px-4 py-3">
               <img src={skill.logo} className='h-16'></img>
               <span>{skill.name}</span>
             </li>
