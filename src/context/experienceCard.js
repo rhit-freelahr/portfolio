@@ -22,7 +22,7 @@ export default function ExperienceCard(props) {
   const { title, used, description, position, time } = props
   return (
       <div className="bg-gray-100 max-w-[58rem] border border-black/5 rounded-lg sm:pr-8
-        hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20 mb-8 h-full  w-full">
+        hover:bg-gray-200 transition mb-8 h-full w-full">
         <div className="pt-4 pb-7 px-5 flex flex-col h-full text-start">
           <h2 className="mb-3 font-semibold text-2xl">{title}</h2>
           <h3 className="mb-3 text-md">{position}</h3>
