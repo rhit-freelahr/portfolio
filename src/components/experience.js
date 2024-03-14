@@ -4,7 +4,7 @@ import ExperienceCard from "../context/experienceCard";
 const experienceList = [
   {
     title: "Tooling Solutions",
-    position: "Quality Assurance Intern",
+    position: "Intern & Engineering Assistant",
     description: `- Refined, sorted, and inspected shipments of milling tools from various companies
     - Organized previous system used to stockpile assorted milling tools for ease of access`,
     time: "August 2020 - November 2021"
@@ -36,7 +36,7 @@ const experienceList = [
   {
     title: "Teachers Assistant",
     position: "Data Structures and Algorithms TA",
-    description: `- Provided students with assistance for inclass activities and homework
+    description: `- Provided students with assistance for in class activities and homework
     - Graded and gave feedback on assignments to help students in need`,
     time: "November 2023 - Present"
   },
