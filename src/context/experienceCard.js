@@ -5,7 +5,20 @@ import SeleniumLogo from "../images/selenium-svgrepo-com.svg"
 import GitLogo from "../images/git-icon.svg"
 import CSharpLogo from "../images/c--4.svg"
 import NodeJSLogo from "../images/nodejs-icon.svg"
-import AzureLogo from "../images/azure-2.svg"
+import AzureLogo from "../images/azure.svg"
+import ReactLogo from "../images/React-logo.svg"
+import FirebaseLogo from "../images/firebase-1.svg"
+import GolangLogo from "../images/golang-1.svg"
+import PythonLogo from "../images/python-5.svg"
+import MSSQLLogo from "../images/microsoft-sql-server-1.svg"
+import TailwindLogo from "../images/tailwind-css-2.svg"
+import BootStrapLogo from "../images/bootstrap-5-1.svg"
+import AngularLogo from "../images/angular.svg"
+import Net from "../images/dotnet-logo.svg"
+import TSLogo from "../images/typescript.svg"
+import SQLiteLogo from "../images/sqlite.svg"
+import SassLogo from "../images/sass-1.svg"
+
 
 
 const logos = {
@@ -15,7 +28,19 @@ const logos = {
   "GitLogo": GitLogo,
   "CSharpLogo": CSharpLogo,
   "NodeJSLogo": NodeJSLogo,
-  "AzureLogo": AzureLogo
+  "AzureLogo": AzureLogo,
+  "ReactLogo": ReactLogo,
+  "FirebaseLogo": FirebaseLogo,
+  "GolangLogo": GolangLogo,
+  "PythonLogo": PythonLogo,
+  "MSSQLLogo": MSSQLLogo,
+  "TailwindLogo": TailwindLogo,
+  "BootStrapLogo": BootStrapLogo,
+  "AngularLogo": AngularLogo,
+  "DotNetLogo": Net,
+  "TSLogo": TSLogo,
+  "SQLiteLogo": SQLiteLogo,
+  "SassLogo": SassLogo
 }
 
 export default function ExperienceCard(props) {

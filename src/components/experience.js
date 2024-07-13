@@ -3,18 +3,21 @@ import ExperienceCard from "../context/experienceCard";
 
 const experienceList = [
   {
-    title: "Tooling Solutions",
-    position: "Intern & Engineering Assistant",
-    description: `- Refined, sorted, and inspected shipments of milling tools from various companies
-    - Organized previous system used to stockpile assorted milling tools for ease of access`,
-    time: "August 2020 - November 2021"
+    title: "Park Place Technologies",
+    position: "Software Developer Intern",
+    used: ["TSLogo","AngularLogo", "SassLogo", "NodeJSLogo", "AzureLogo", "DotNetLogo", "CSharpLogo"],
+    description: `- Developed new features for applications using the .NET Framework and Angular
+    - Collaborated with developers to implement new features, fix bugs, and provide functional reviews
+    - Leveraged Microsoft Azure to deploy and maintain code to enhance functionality`
+    ,
+    time: "June 2024 - Present"
   },
   {
-    title: "Parkers’ Restaurant & Bar",
-    position: "Busser",
-    description: `- Helped new employees with building time management skills
-    - Performed cleaning duties to ensure the restaurants high quality`,
-    time: "June 2021 - August 2021"
+    title: "Teachers Assistant",
+    position: "Data Structures and Algorithms TA",
+    description: `- Provided students with assistance for in class activities and homework
+    - Graded and gave feedback on assignments to help students in need`,
+    time: "November 2023 - Present"
   },
   {
     title: "Rose-Hulman Ventures",
@@ -31,14 +34,21 @@ const experienceList = [
     position: "Delivery Driver",
     description: `- Delivered packages to various locations
     - Shortened delivery times by adjusting commmon routes`,
-    time: "June 2022 - Present"
+    time: "June 2022 - June 2024"
   },
   {
-    title: "Teachers Assistant",
-    position: "Data Structures and Algorithms TA",
-    description: `- Provided students with assistance for in class activities and homework
-    - Graded and gave feedback on assignments to help students in need`,
-    time: "November 2023 - Present"
+    title: "Parkers’ Restaurant & Bar",
+    position: "Busser",
+    description: `- Helped new employees with building time management skills
+    - Performed cleaning duties to ensure the restaurants high quality`,
+    time: "June 2021 - August 2021"
+  },
+  {
+    title: "Tooling Solutions",
+    position: "Intern & Engineering Assistant",
+    description: `- Refined, sorted, and inspected shipments of milling tools from various companies
+    - Organized previous system used to stockpile assorted milling tools for ease of access`,
+    time: "August 2020 - November 2021"
   },
 ]
 

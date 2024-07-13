@@ -12,8 +12,8 @@ export default function Education(props) {
         </div>
         <div className="pt-4 px-5 flex flex-col h-full text-start">
           <h2 className="font-semibold text-xl">Rose-Hulman Institute of Technology</h2>
-          <h3 className="text-md">2022-2026</h3>
-          <p className="text-md mb-3">GPA: 3.31/4</p>
+          <h3 className="text-md">2022 - 2026</h3>
+          <p className="text-md mb-3">GPA: 3.26/4</p>
           <ul className="list-disc pl-6">
             <li>
               Major in Computer Science
