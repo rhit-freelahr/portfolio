@@ -7,6 +7,7 @@ const projectsList = [
     title: "RateMyCourse",
     madeWith: [
       "TSLogo",
+       "RxJSLogo",
       "AngularLogo",
       "TailwindLogo",
       "SassLogo",

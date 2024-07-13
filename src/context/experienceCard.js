@@ -18,6 +18,7 @@ import Net from "../images/dotnet-logo.svg"
 import TSLogo from "../images/typescript.svg"
 import SQLiteLogo from "../images/sqlite.svg"
 import SassLogo from "../images/sass-1.svg"
+import RxJSLogo from "../images/rxjs-1.svg"
 
 
 
@@ -40,7 +41,8 @@ const logos = {
   "DotNetLogo": Net,
   "TSLogo": TSLogo,
   "SQLiteLogo": SQLiteLogo,
-  "SassLogo": SassLogo
+  "SassLogo": SassLogo,
+  "RxJSLogo": RxJSLogo
 }
 
 export default function ExperienceCard(props) {

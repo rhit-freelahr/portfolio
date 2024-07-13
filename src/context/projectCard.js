@@ -16,6 +16,7 @@ import TSLogo from "../images/typescript.svg"
 import CSharpLogo from "../images/c--4.svg"
 import SQLiteLogo from "../images/sqlite.svg"
 import SassLogo from "../images/sass-1.svg"
+import RxJSLogo from "../images/rxjs-1.svg"
 
 
 const logos = {
@@ -34,7 +35,8 @@ const logos = {
   "TSLogo": TSLogo,
   "CSharpLogo": CSharpLogo,
   "SQLiteLogo": SQLiteLogo,
-  "SassLogo": SassLogo
+  "SassLogo": SassLogo,
+  "RxJSLogo": RxJSLogo
 }
 
 export default function ProjectCard(props) {

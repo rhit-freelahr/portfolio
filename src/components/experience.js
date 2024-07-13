@@ -5,7 +5,7 @@ const experienceList = [
   {
     title: "Park Place Technologies",
     position: "Software Developer Intern",
-    used: ["TSLogo","AngularLogo", "SassLogo", "NodeJSLogo", "AzureLogo", "DotNetLogo", "CSharpLogo"],
+    used: ["TSLogo", "RxJSLogo","AngularLogo", "SassLogo", "NodeJSLogo", "AzureLogo", "DotNetLogo", "CSharpLogo"],
     description: `- Developed new features for applications using the .NET Framework and Angular
     - Collaborated with developers to implement new features, fix bugs, and provide functional reviews
     - Leveraged Microsoft Azure to deploy and maintain code to enhance functionality`

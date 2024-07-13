@@ -26,6 +26,8 @@ import TSLogo from "../images/typescript.svg";
 import SQLiteLogo from "../images/sqlite.svg";
 import AzureLogo from "../images/azure.svg";
 import SassLogo from "../images/sass-1.svg"
+import RxJSLogo from "../images/rxjs-1.svg"
+
 
 const skillsList = [
   {
@@ -35,6 +37,10 @@ const skillsList = [
   {
     logo: TSLogo,
     name: "TypeScript",
+  },
+  {
+    logo: RxJSLogo,
+    name: "RxJS"
   },
   {
     logo: NodeJSLogo,
